@@ -1,0 +1,22 @@
+{
+    "name": "node-services",
+    "version": "1.0.0",
+    "description": "Services Update",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mateus .´.",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1",
+        "jquery": "^3.6.0",
+        "jsdom": "^19.0.0",
+        "linebyline": "^1.3.0",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "nodemon": "^2.0.16",
+        "sequelize": "^6.20.1"
+    }
+}
